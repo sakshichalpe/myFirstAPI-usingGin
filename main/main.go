@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	r := gin.Default()
+	r := gin.New()
 
 	//setting up a simple route
 	r.GET("/Welcome", firstpg)
